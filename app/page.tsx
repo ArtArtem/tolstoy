@@ -1,4 +1,4 @@
-import VideoGallery from './video-gallery';
+import VideoGallery from './VideoGallery';
 
 export default function Home() {
   return (
