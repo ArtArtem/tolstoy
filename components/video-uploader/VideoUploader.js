@@ -4,7 +4,7 @@ import { useState, useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { Upload, Loader2 } from 'lucide-react';
 
-export default function VideoUploader({ onUploadComplete }) {
+export function VideoUploader({ onUploadComplete }) {
   const [uploading, setUploading] = useState(false);
   const [progress, setProgress] = useState(0);
   const [uploadError, setUploadError] = useState(null);

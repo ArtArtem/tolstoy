@@ -1,9 +1,9 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import VideoUploader from '@/components/VideoUploader';
-import VideoCarousel from '@/components/VideoCarousel';
 import { FileVideo } from 'lucide-react';
+import { VideoCarousel } from '@/components/video-carousel';
+import { VideoUploader } from '@/components/video-uploader';
 
 export default function VideoGallery() {
   const [videos, setVideos] = useState([]);
